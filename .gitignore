@@ -1,4 +1,1 @@
-# Examples 1 and 2 are just documentation - only the actual input matters
-# No build artifacts, dependency directories, or temporary files in the changes
-# Only a markdown documentation file was added
-# Therefore, no ignores are needed
+Nothing to output - the modified file is just a markdown documentation file (.md) which should not be ignored.
