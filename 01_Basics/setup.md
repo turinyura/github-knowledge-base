@@ -1,7 +1,7 @@
 --- 01_Basics/setup.md (оригинальный)
 
 
-+++ 01_Basics/setup.md (修改后)
++++ 01_Basics/setup.md 
 [🏠 Главная](../README.md) / [📚 Основы](README.md) / Настройка окружения
 
 # ⚙️ Настройка окружения
