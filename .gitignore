@@ -1,1 +1,4 @@
-Nothing to output - the modified file is just a markdown documentation file (.md) which should not be ignored.
+```
+# Documentation and workflow files
+02_Workflow/
+```
