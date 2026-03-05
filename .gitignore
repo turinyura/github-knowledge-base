@@ -1,1 +1,4 @@
-Nothing should be ignored since only README.md files were added, which are source/documentation files.
+# Examples 1 and 2 are just documentation - only the actual input matters
+# No build artifacts, dependency directories, or temporary files in the changes
+# Only a markdown documentation file was added
+# Therefore, no ignores are needed
