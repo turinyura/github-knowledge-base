@@ -3,5 +3,6 @@
 ## Оглавление
 
 - [01_Basics](./01_Basics/README.md)
+  - [Основные термины](./01_Basics/terminology.md)
 - [02_Workflow](./02_Workflow/README.md)
 - [03_Agent_Rules](./03_Agent_Rules/README.md)
