@@ -1,10 +1,10 @@
 ```markdown
-# Compiled and binary files
+# Compiled and build artifacts
 *.pyc
 __pycache__/
-*.class
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -19,34 +19,32 @@ venv/
 .env.local
 .env.*
 
-# Build artifacts
+# Build directories
 dist/
 build/
 target/
-*.log
-*.tmp
+*.egg-info/
 
-# Editors and IDEs
+# Caches
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.gradle/
+.cargo/
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System files
+# System
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-.mypy_cache/
-.pytest_cache/
-
-# Gradle
-.gradle/
+*.log
+*.tmp
 
 # Compressed files
 *.zip
