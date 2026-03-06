@@ -1,0 +1,15 @@
+# GitHub Pages Configuration
+title: "GitHub Knowledge Base"
+description: "Interactive guide for Git and GitHub with AI agents"
+theme: jekyll-theme-minimal
+
+# Enable Markdown processing
+markdown: kramdown
+
+# Default layout for all pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
