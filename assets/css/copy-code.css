@@ -1,0 +1,53 @@
+/* Copy button styles for code blocks */
+pre, .highlight {
+  position: relative;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 10;
+}
+
+/* Show button on hover */
+pre:hover .copy-code-btn,
+.highlight:hover .copy-code-btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Button hover state */
+.copy-code-btn:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+/* Button active/copied state */
+.copy-code-btn:active {
+  background-color: #e0e0e0;
+}
+
+/* Dark mode support (optional) */
+@media (prefers-color-scheme: dark) {
+  .copy-code-btn {
+    background-color: rgba(50, 50, 50, 0.9);
+    border-color: #444;
+    color: #fff;
+  }
+
+  .copy-code-btn:hover {
+    background-color: rgba(60, 60, 60, 0.95);
+    border-color: #555;
+  }
+}
